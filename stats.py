@@ -15,3 +15,10 @@ def get_character_count(string):
         else:
             character_count[character] += 1
     return character_count
+
+def sort_on(character_list):
+    return character_list["num"]
+
+def sort_character_count(character_count):
+    character_count.sort(reverse=True, key=character_count[1])
+    return character_count
