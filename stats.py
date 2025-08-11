@@ -16,6 +16,15 @@ def get_character_count(string):
             character_count[character] += 1
     return character_count
 
+def convert_character_count(character_count):
+    char_list = []
+    for character in character_count:
+        ind_count = {}
+        count = character_count[character]
+        
+
+
+
 def sort_on(character_list):
     return character_list["num"]
 
