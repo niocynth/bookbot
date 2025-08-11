@@ -3,7 +3,7 @@ def get_word_count(string):
     words = string.split()
     for word in words:
         word_count += 1
-    return f"{word_count} words found in the document"
+    return word_count
 
 def get_character_dict(string):
     character_dict = {}
