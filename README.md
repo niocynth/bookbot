@@ -13,8 +13,8 @@ BookBot is a Python program that analyzes the contents of a book and generates a
 1. Place your book text files in the `books/` directory.
 2. Run the program from the command line:
 
-   ```
-   sh python3 main.py books/frankenstein.txt
+   ```sh
+   python3 main.py books/frankenstein.txt
    ```
 
    Replace `books/frankenstein.txt` with the path to your desired book file.
